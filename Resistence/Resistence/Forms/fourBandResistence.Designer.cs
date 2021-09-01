@@ -31,6 +31,9 @@ namespace Resistence.Forms
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fourBandResistence));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.ListBox1 = new System.Windows.Forms.ListBox();
@@ -58,34 +61,31 @@ namespace Resistence.Forms
             this.btnFirstLine = new System.Windows.Forms.Button();
             this.btnTolerance = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -109,6 +109,39 @@ namespace Resistence.Forms
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(538, 595);
             this.panel1.TabIndex = 14;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(2, 542);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(283, 17);
+            this.label10.TabIndex = 17;
+            this.label10.Text = " sino que se aplica a las unidades exactas.";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Red;
+            this.label9.Location = new System.Drawing.Point(304, 525);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(219, 17);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "haya diseñado dicha resistencia,";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(2, 525);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(311, 17);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "La normalización no implica que el fabricante ";
             // 
             // btnReset
             // 
@@ -455,39 +488,6 @@ namespace Resistence.Forms
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(2, 525);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(311, 17);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "La normalización no implica que el fabricante ";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(304, 525);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(219, 17);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "haya diseñado dicha resistencia,";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(2, 542);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(283, 17);
-            this.label10.TabIndex = 17;
-            this.label10.Text = " sino que se aplica a las unidades exactas.";
-            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.label34);
@@ -521,139 +521,106 @@ namespace Resistence.Forms
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Preguntas frecuentes";
             // 
-            // label17
+            // label34
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(6, 16);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(428, 16);
-            this.label17.TabIndex = 23;
-            this.label17.Text = "A continuación os resolveremos algunas de las preguntas más habituales que ";
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.Black;
+            this.label34.Location = new System.Drawing.Point(6, 438);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(213, 15);
+            this.label34.TabIndex = 49;
+            this.label34.Text = "de valores habituales de los resistores.";
             // 
-            // label13
+            // label33
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(325, 97);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(163, 15);
-            this.label13.TabIndex = 26;
-            this.label13.Text = "(dígito, dígito y multiplicador)";
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.Black;
+            this.label33.Location = new System.Drawing.Point(358, 422);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(135, 15);
+            this.label33.TabIndex = 48;
+            this.label33.Text = "no aparezca en la tabla";
             // 
-            // label14
+            // label32
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(6, 81);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(422, 16);
-            this.label14.TabIndex = 27;
-            this.label14.Text = "Si te encuentras con una resistencia que tiene 3 bandas, puedes calcular su ";
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.Black;
+            this.label32.Location = new System.Drawing.Point(6, 422);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(355, 16);
+            this.label32.TabIndex = 47;
+            this.label32.Text = "de la resistencia, el resultado que habrás obtenido seguramente";
             // 
-            // label15
+            // label31
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(11, 60);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(187, 15);
-            this.label15.TabIndex = 28;
-            this.label15.Text = "La resistencia sólo tiene 3 bandas";
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.Black;
+            this.label31.Location = new System.Drawing.Point(6, 406);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(478, 16);
+            this.label31.TabIndex = 46;
+            this.label31.Text = "Si no has sabido ver cuál es la primera banda de la resistencia y has calculado e" +
+    "l valor";
             // 
-            // label16
+            // label28
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(6, 32);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(395, 16);
-            this.label16.TabIndex = 29;
-            this.label16.Text = "surgen a la hora de calcular el valor o trabajar con el código de colores";
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.Black;
+            this.label28.Location = new System.Drawing.Point(11, 373);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(305, 15);
+            this.label28.TabIndex = 45;
+            this.label28.Text = "¿Qué pasa si calculo el valor de la resistencia al revés?";
             // 
-            // label18
+            // label29
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(6, 97);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(325, 16);
-            this.label18.TabIndex = 30;
-            this.label18.Text = "su valor como si se tratase de una resistencia de 4 bandas ";
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Black;
+            this.label29.Location = new System.Drawing.Point(6, 326);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(487, 16);
+            this.label29.TabIndex = 44;
+            this.label29.Text = "3. Por lo comentado en el punto anterior, la primera banda nunca podrá ser plata " +
+    "u oro.";
             // 
-            // label12
+            // label30
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(11, 134);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(254, 15);
-            this.label12.TabIndex = 31;
-            this.label12.Text = "¿Qué banda es la primera en una resistencia?";
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.Black;
+            this.label30.Location = new System.Drawing.Point(6, 342);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(407, 16);
+            this.label30.TabIndex = 43;
+            this.label30.Text = "Tampoco suele ser habitual encontrar una primera banda de color negro.";
             // 
-            // label19
+            // label27
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Black;
-            this.label19.Location = new System.Drawing.Point(6, 158);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(439, 16);
-            this.label19.TabIndex = 32;
-            this.label19.Text = "Hay una serie de reglas para saber cuál es la primera banda en una resistencia:";
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.Black;
+            this.label27.Location = new System.Drawing.Point(221, 263);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(141, 15);
+            this.label27.TabIndex = 41;
+            this.label27.Text = "esa banda será la última.";
             // 
-            // label20
+            // label11
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(6, 215);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(198, 16);
-            this.label20.TabIndex = 33;
-            this.label20.Text = "resistencia de izquierda a derecha.";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(6, 199);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(467, 16);
-            this.label21.TabIndex = 34;
-            this.label21.Text = "más separadas. Pon la agrupación de bandas a tu izquierda y calcula el valor de l" +
-    "a";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(6, 183);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(499, 16);
-            this.label22.TabIndex = 35;
-            this.label22.Text = "1. Algunas resistencias tienen agrupaciones de varias bandas muy juntas y luego u" +
-    "na o dos";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(164, 183);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(237, 15);
-            this.label23.TabIndex = 36;
-            this.label23.Text = "agrupaciones de varias bandas muy juntas";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(6, 293);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(58, 16);
+            this.label11.TabIndex = 40;
+            this.label11.Text = "derecha.";
             // 
             // label24
             // 
@@ -691,106 +658,139 @@ namespace Resistence.Forms
             this.label26.Text = "banda de oro o plata a la derecha y calcula el valor de la resistencia de izquier" +
     "da a ";
             // 
-            // label11
+            // label23
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(6, 293);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(58, 16);
-            this.label11.TabIndex = 40;
-            this.label11.Text = "derecha.";
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.Black;
+            this.label23.Location = new System.Drawing.Point(164, 183);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(237, 15);
+            this.label23.TabIndex = 36;
+            this.label23.Text = "agrupaciones de varias bandas muy juntas";
             // 
-            // label27
+            // label22
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.Black;
-            this.label27.Location = new System.Drawing.Point(221, 263);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(141, 15);
-            this.label27.TabIndex = 41;
-            this.label27.Text = "esa banda será la última.";
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Black;
+            this.label22.Location = new System.Drawing.Point(6, 183);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(499, 16);
+            this.label22.TabIndex = 35;
+            this.label22.Text = "1. Algunas resistencias tienen agrupaciones de varias bandas muy juntas y luego u" +
+    "na o dos";
             // 
-            // label29
+            // label21
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.Black;
-            this.label29.Location = new System.Drawing.Point(6, 326);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(487, 16);
-            this.label29.TabIndex = 44;
-            this.label29.Text = "3. Por lo comentado en el punto anterior, la primera banda nunca podrá ser plata " +
-    "u oro.";
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(6, 199);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(467, 16);
+            this.label21.TabIndex = 34;
+            this.label21.Text = "más separadas. Pon la agrupación de bandas a tu izquierda y calcula el valor de l" +
+    "a";
             // 
-            // label30
+            // label20
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.Black;
-            this.label30.Location = new System.Drawing.Point(6, 342);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(407, 16);
-            this.label30.TabIndex = 43;
-            this.label30.Text = "Tampoco suele ser habitual encontrar una primera banda de color negro.";
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(6, 215);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(198, 16);
+            this.label20.TabIndex = 33;
+            this.label20.Text = "resistencia de izquierda a derecha.";
             // 
-            // label28
+            // label19
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.Black;
-            this.label28.Location = new System.Drawing.Point(11, 373);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(305, 15);
-            this.label28.TabIndex = 45;
-            this.label28.Text = "¿Qué pasa si calculo el valor de la resistencia al revés?";
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(6, 158);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(439, 16);
+            this.label19.TabIndex = 32;
+            this.label19.Text = "Hay una serie de reglas para saber cuál es la primera banda en una resistencia:";
             // 
-            // label31
+            // label12
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.Black;
-            this.label31.Location = new System.Drawing.Point(6, 406);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(478, 16);
-            this.label31.TabIndex = 46;
-            this.label31.Text = "Si no has sabido ver cuál es la primera banda de la resistencia y has calculado e" +
-    "l valor";
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(11, 134);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(254, 15);
+            this.label12.TabIndex = 31;
+            this.label12.Text = "¿Qué banda es la primera en una resistencia?";
             // 
-            // label32
+            // label18
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.Black;
-            this.label32.Location = new System.Drawing.Point(6, 422);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(355, 16);
-            this.label32.TabIndex = 47;
-            this.label32.Text = "de la resistencia, el resultado que habrás obtenido seguramente";
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(6, 97);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(325, 16);
+            this.label18.TabIndex = 30;
+            this.label18.Text = "su valor como si se tratase de una resistencia de 4 bandas ";
             // 
-            // label33
+            // label16
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.Black;
-            this.label33.Location = new System.Drawing.Point(358, 422);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(135, 15);
-            this.label33.TabIndex = 48;
-            this.label33.Text = "no aparezca en la tabla";
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(6, 32);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(395, 16);
+            this.label16.TabIndex = 29;
+            this.label16.Text = "surgen a la hora de calcular el valor o trabajar con el código de colores";
             // 
-            // label34
+            // label15
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.Black;
-            this.label34.Location = new System.Drawing.Point(6, 438);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(213, 15);
-            this.label34.TabIndex = 49;
-            this.label34.Text = "de valores habituales de los resistores.";
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(11, 60);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(187, 15);
+            this.label15.TabIndex = 28;
+            this.label15.Text = "La resistencia sólo tiene 3 bandas";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(6, 81);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(422, 16);
+            this.label14.TabIndex = 27;
+            this.label14.Text = "Si te encuentras con una resistencia que tiene 3 bandas, puedes calcular su ";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(325, 97);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(163, 15);
+            this.label13.TabIndex = 26;
+            this.label13.Text = "(dígito, dígito y multiplicador)";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(6, 16);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(428, 16);
+            this.label17.TabIndex = 23;
+            this.label17.Text = "A continuación os resolveremos algunas de las preguntas más habituales que ";
             // 
             // fourBandResistence
             // 
@@ -799,6 +799,7 @@ namespace Resistence.Forms
             this.ClientSize = new System.Drawing.Size(1070, 610);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fourBandResistence";
             this.Text = "fourBandResistence";
             this.Load += new System.EventHandler(this.fourBandResistence_Load);

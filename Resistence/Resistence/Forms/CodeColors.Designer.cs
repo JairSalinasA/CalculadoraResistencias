@@ -29,6 +29,7 @@ namespace Resistence.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CodeColors));
             this.colorGridView = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -114,6 +115,7 @@ namespace Resistence.Forms
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.colorGridView);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CodeColors";
             this.Text = "CodeColors";
             this.Load += new System.EventHandler(this.CodeColors_Load);

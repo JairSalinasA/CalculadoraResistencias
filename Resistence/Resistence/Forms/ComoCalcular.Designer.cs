@@ -164,6 +164,7 @@ namespace Resistence.Forms
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label5);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ComoCalcular";
             this.Text = "ComoCalcular";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -203,12 +203,12 @@ namespace Resistence
 
         private void iconPictureBox1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.facebook.com/ImPixelMx/");
+            System.Diagnostics.Process.Start("https://www.facebook.com/ClaseAbstracta/");
         }
 
         private void iconPictureBox2_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.youtube.com/channel/UC-3fPg83Z9qPzJj_wWNt4Xw");
+            System.Diagnostics.Process.Start("https://www.youtube.com/channel/UC-3fPg83Z9qPzJj_wWNt4Xw/playlists");
         }
 
         private void iconPictureBox3_Click(object sender, EventArgs e)
